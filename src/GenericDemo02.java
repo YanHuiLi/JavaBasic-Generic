@@ -6,7 +6,7 @@
 public class GenericDemo02 {
     public static void main(String[] args) {
 
-         Con<String> c= new Con<String>("Archer");
+         Con123<String> c= new Con123<String>("Archer");
 
         System.out.println(c.getValue());
         System.out.println("hello");
@@ -14,10 +14,10 @@ public class GenericDemo02 {
 }
 
 
-class Con<T>{
+class Con123<T>{
     private T value;
 
-    public Con(T value) {
+    public Con123(T value) {
         this.value = value;
     }
 
